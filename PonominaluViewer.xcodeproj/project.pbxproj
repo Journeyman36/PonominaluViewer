@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3722A9EF1DBF638000DA04C5 /* CategoriesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722A9EE1DBF638000DA04C5 /* CategoriesCell.m */; };
+		3722A9F21DBF79AB00DA04C5 /* EventsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722A9F11DBF79AA00DA04C5 /* EventsCell.m */; };
+		3722A9FB1DBFA27300DA04C5 /* reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722A9F91DBFA27300DA04C5 /* reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		372E3AD81DBEB85400C4F450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E3AD71DBEB85400C4F450 /* main.m */; };
+		372E3ADB1DBEB85400C4F450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E3ADA1DBEB85400C4F450 /* AppDelegate.m */; };
+		372E3ADE1DBEB85400C4F450 /* StartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E3ADD1DBEB85400C4F450 /* StartVC.m */; };
+		372E3AE11DBEB85400C4F450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372E3ADF1DBEB85400C4F450 /* Main.storyboard */; };
+		372E3AE41DBEB85400C4F450 /* PonominaluViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 372E3AE21DBEB85400C4F450 /* PonominaluViewer.xcdatamodeld */; };
+		372E3AE61DBEB85400C4F450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372E3AE51DBEB85400C4F450 /* Assets.xcassets */; };
+		372E3AF21DBEBA2F00C4F450 /* CategoriesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E3AF11DBEBA2F00C4F450 /* CategoriesVC.m */; };
+		372E3AF51DBEBC1100C4F450 /* EventsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E3AF41DBEBC1100C4F450 /* EventsVC.m */; };
+		372E3AF81DBEBC3200C4F450 /* DetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E3AF71DBEBC3200C4F450 /* DetailsVC.m */; };
+		37CF6A9E1DC2425000AAF9E2 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF6A9D1DC2425000AAF9E2 /* Config.m */; };
+		F62453563A571A9CC3F269B3 /* libPods-PonominaluViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7853756CBEDEC433A7516B1 /* libPods-PonominaluViewer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3722A9ED1DBF638000DA04C5 /* CategoriesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesCell.h; sourceTree = "<group>"; };
+		3722A9EE1DBF638000DA04C5 /* CategoriesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesCell.m; sourceTree = "<group>"; };
+		3722A9F01DBF79AA00DA04C5 /* EventsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsCell.h; sourceTree = "<group>"; };
+		3722A9F11DBF79AA00DA04C5 /* EventsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsCell.m; sourceTree = "<group>"; };
+		3722A9F91DBFA27300DA04C5 /* reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reachability.m; sourceTree = "<group>"; };
+		3722A9FA1DBFA27300DA04C5 /* reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reachability.h; sourceTree = "<group>"; };
+		372E3AD31DBEB85300C4F450 /* PonominaluViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PonominaluViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372E3AD71DBEB85400C4F450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		372E3AD91DBEB85400C4F450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		372E3ADA1DBEB85400C4F450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		372E3ADC1DBEB85400C4F450 /* StartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartVC.h; sourceTree = "<group>"; };
+		372E3ADD1DBEB85400C4F450 /* StartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartVC.m; sourceTree = "<group>"; };
+		372E3AE01DBEB85400C4F450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		372E3AE31DBEB85400C4F450 /* PonominaluViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PonominaluViewer.xcdatamodel; sourceTree = "<group>"; };
+		372E3AE51DBEB85400C4F450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372E3AEA1DBEB85400C4F450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372E3AF01DBEBA2F00C4F450 /* CategoriesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesVC.h; sourceTree = "<group>"; };
+		372E3AF11DBEBA2F00C4F450 /* CategoriesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesVC.m; sourceTree = "<group>"; };
+		372E3AF31DBEBC1100C4F450 /* EventsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsVC.h; sourceTree = "<group>"; };
+		372E3AF41DBEBC1100C4F450 /* EventsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsVC.m; sourceTree = "<group>"; };
+		372E3AF61DBEBC3200C4F450 /* DetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsVC.h; sourceTree = "<group>"; };
+		372E3AF71DBEBC3200C4F450 /* DetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsVC.m; sourceTree = "<group>"; };
+		37CF6A9C1DC2425000AAF9E2 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		37CF6A9D1DC2425000AAF9E2 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		478F6F028D35560E586B82FC /* Pods-PonominaluViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonominaluViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PonominaluViewer/Pods-PonominaluViewer.release.xcconfig"; sourceTree = "<group>"; };
+		A7853756CBEDEC433A7516B1 /* libPods-PonominaluViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PonominaluViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D8476C7FA972D25480A90C /* Pods-PonominaluViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonominaluViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PonominaluViewer/Pods-PonominaluViewer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372E3AD01DBEB85300C4F450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62453563A571A9CC3F269B3 /* libPods-PonominaluViewer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3722A9F31DBF867A00DA04C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3722A9ED1DBF638000DA04C5 /* CategoriesCell.h */,
+				3722A9EE1DBF638000DA04C5 /* CategoriesCell.m */,
+				3722A9F01DBF79AA00DA04C5 /* EventsCell.h */,
+				3722A9F11DBF79AA00DA04C5 /* EventsCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3722A9F41DBF868600DA04C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				372E3ADC1DBEB85400C4F450 /* StartVC.h */,
+				372E3ADD1DBEB85400C4F450 /* StartVC.m */,
+				372E3AF01DBEBA2F00C4F450 /* CategoriesVC.h */,
+				372E3AF11DBEBA2F00C4F450 /* CategoriesVC.m */,
+				372E3AF31DBEBC1100C4F450 /* EventsVC.h */,
+				372E3AF41DBEBC1100C4F450 /* EventsVC.m */,
+				372E3AF61DBEBC3200C4F450 /* DetailsVC.h */,
+				372E3AF71DBEBC3200C4F450 /* DetailsVC.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3722A9F51DBF8BC700DA04C5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3722A9FA1DBFA27300DA04C5 /* reachability.h */,
+				3722A9F91DBFA27300DA04C5 /* reachability.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		372E3ACA1DBEB85300C4F450 = {
+			isa = PBXGroup;
+			children = (
+				372E3AD51DBEB85400C4F450 /* PonominaluViewer */,
+				372E3AD41DBEB85300C4F450 /* Products */,
+				8E24EC0E43B06C93ABC66290 /* Pods */,
+				601297A4BABDB6CDBB780D43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		372E3AD41DBEB85300C4F450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372E3AD31DBEB85300C4F450 /* PonominaluViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372E3AD51DBEB85400C4F450 /* PonominaluViewer */ = {
+			isa = PBXGroup;
+			children = (
+				3722A9F51DBF8BC700DA04C5 /* Network */,
+				3722A9F41DBF868600DA04C5 /* Controllers */,
+				3722A9F31DBF867A00DA04C5 /* Views */,
+				372E3AD91DBEB85400C4F450 /* AppDelegate.h */,
+				372E3ADA1DBEB85400C4F450 /* AppDelegate.m */,
+				372E3ADF1DBEB85400C4F450 /* Main.storyboard */,
+				372E3AE51DBEB85400C4F450 /* Assets.xcassets */,
+				372E3AEA1DBEB85400C4F450 /* Info.plist */,
+				372E3AE21DBEB85400C4F450 /* PonominaluViewer.xcdatamodeld */,
+				372E3AD61DBEB85400C4F450 /* Supporting Files */,
+				37CF6A9C1DC2425000AAF9E2 /* Config.h */,
+				37CF6A9D1DC2425000AAF9E2 /* Config.m */,
+			);
+			path = PonominaluViewer;
+			sourceTree = "<group>";
+		};
+		372E3AD61DBEB85400C4F450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				372E3AD71DBEB85400C4F450 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		601297A4BABDB6CDBB780D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7853756CBEDEC433A7516B1 /* libPods-PonominaluViewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E24EC0E43B06C93ABC66290 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1D8476C7FA972D25480A90C /* Pods-PonominaluViewer.debug.xcconfig */,
+				478F6F028D35560E586B82FC /* Pods-PonominaluViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372E3AD21DBEB85300C4F450 /* PonominaluViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372E3AED1DBEB85400C4F450 /* Build configuration list for PBXNativeTarget "PonominaluViewer" */;
+			buildPhases = (
+				3863863E32723C5B5C769BD1 /* [CP] Check Pods Manifest.lock */,
+				372E3ACF1DBEB85300C4F450 /* Sources */,
+				372E3AD01DBEB85300C4F450 /* Frameworks */,
+				372E3AD11DBEB85300C4F450 /* Resources */,
+				56A1083447379A44CF1B95A4 /* [CP] Embed Pods Frameworks */,
+				3EBBE7974BA40DEE0E96C11F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PonominaluViewer;
+			productName = PonominaluViewer;
+			productReference = 372E3AD31DBEB85300C4F450 /* PonominaluViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372E3ACB1DBEB85300C4F450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = DeveloperJourneyman;
+				TargetAttributes = {
+					372E3AD21DBEB85300C4F450 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 372E3ACE1DBEB85300C4F450 /* Build configuration list for PBXProject "PonominaluViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 372E3ACA1DBEB85300C4F450;
+			productRefGroup = 372E3AD41DBEB85300C4F450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372E3AD21DBEB85300C4F450 /* PonominaluViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372E3AD11DBEB85300C4F450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372E3AE61DBEB85400C4F450 /* Assets.xcassets in Resources */,
+				372E3AE11DBEB85400C4F450 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3863863E32723C5B5C769BD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EBBE7974BA40DEE0E96C11F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PonominaluViewer/Pods-PonominaluViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56A1083447379A44CF1B95A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PonominaluViewer/Pods-PonominaluViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372E3ACF1DBEB85300C4F450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3722A9F21DBF79AB00DA04C5 /* EventsCell.m in Sources */,
+				372E3ADE1DBEB85400C4F450 /* StartVC.m in Sources */,
+				3722A9EF1DBF638000DA04C5 /* CategoriesCell.m in Sources */,
+				372E3AF21DBEBA2F00C4F450 /* CategoriesVC.m in Sources */,
+				3722A9FB1DBFA27300DA04C5 /* reachability.m in Sources */,
+				372E3AE41DBEB85400C4F450 /* PonominaluViewer.xcdatamodeld in Sources */,
+				372E3AF51DBEBC1100C4F450 /* EventsVC.m in Sources */,
+				372E3AF81DBEBC3200C4F450 /* DetailsVC.m in Sources */,
+				37CF6A9E1DC2425000AAF9E2 /* Config.m in Sources */,
+				372E3ADB1DBEB85400C4F450 /* AppDelegate.m in Sources */,
+				372E3AD81DBEB85400C4F450 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		372E3ADF1DBEB85400C4F450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372E3AE01DBEB85400C4F450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		372E3AEB1DBEB85400C4F450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372E3AEC1DBEB85400C4F450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372E3AEE1DBEB85400C4F450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D8476C7FA972D25480A90C /* Pods-PonominaluViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PonominaluViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Journey.PonominaluViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		372E3AEF1DBEB85400C4F450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478F6F028D35560E586B82FC /* Pods-PonominaluViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PonominaluViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Journey.PonominaluViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372E3ACE1DBEB85300C4F450 /* Build configuration list for PBXProject "PonominaluViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372E3AEB1DBEB85400C4F450 /* Debug */,
+				372E3AEC1DBEB85400C4F450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372E3AED1DBEB85400C4F450 /* Build configuration list for PBXNativeTarget "PonominaluViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372E3AEE1DBEB85400C4F450 /* Debug */,
+				372E3AEF1DBEB85400C4F450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		372E3AE21DBEB85400C4F450 /* PonominaluViewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				372E3AE31DBEB85400C4F450 /* PonominaluViewer.xcdatamodel */,
+			);
+			currentVersion = 372E3AE31DBEB85400C4F450 /* PonominaluViewer.xcdatamodel */;
+			path = PonominaluViewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 372E3ACB1DBEB85300C4F450 /* Project object */;
+}

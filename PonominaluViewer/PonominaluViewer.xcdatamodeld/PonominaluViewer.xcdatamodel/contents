@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="16A323" minimumToolsVersion="Automatic">
+    <entity name="Category" syncable="YES">
+        <attribute name="alias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="events_count" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categoryEventsRel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Event" inverseName="categoryRel" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="Event" parentEntity="Subevent" syncable="YES">
+        <attribute name="eticket_possible" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="event_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="min_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categoryRel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Category" inverseName="categoryEventsRel" inverseEntity="Category" syncable="YES"/>
+        <relationship name="eventSubeventRel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Subevent" inverseName="eventRel" inverseEntity="Subevent" syncable="YES"/>
+    </entity>
+    <entity name="Subevent" syncable="YES">
+        <attribute name="count" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="image_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="max_price" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="min_price" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="subevent_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="eventRel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Event" inverseName="eventSubeventRel" inverseEntity="Event" syncable="YES"/>
+        <relationship name="venueRel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Venue" inverseName="venueSubeventRel" inverseEntity="Venue" syncable="YES"/>
+    </entity>
+    <entity name="Venue" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="region_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="venueSubeventRel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Subevent" inverseName="venueRel" inverseEntity="Subevent" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-90" positionY="-219" width="128" height="120"/>
+        <element name="Event" positionX="-72" positionY="-45" width="128" height="148"/>
+        <element name="Subevent" positionX="124" positionY="-73" width="128" height="163"/>
+        <element name="Venue" positionX="-81" positionY="126" width="128" height="118"/>
+    </elements>
+</model>
